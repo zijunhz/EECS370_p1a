@@ -28,7 +28,7 @@ noop	beq	2	7	done	go back to the beginning of the loop
 	lw	2	4	start
 	sw	6	4	32764
 	noop
-done	halt				end of program
+done	halt				1 end of program
 self	lw	0	3	self	this is to test
 five	.fill	5
 neg1	.fill	-1
